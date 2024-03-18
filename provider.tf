@@ -4,7 +4,7 @@ terraform {
   required_providers {
     github = {
       source  = "integrations/github"
-      version = "~> 5.4.0"
+      version = "6.1.0"
     }
   }
 
@@ -13,4 +13,5 @@ terraform {
 # Configure the GitHub Provider
 provider "github" {
   token = var.github_token
+  owner = "kuritka"
 }
