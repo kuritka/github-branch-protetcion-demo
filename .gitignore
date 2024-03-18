@@ -1,0 +1,18 @@
+# .gitignore
+# Ignore everything
+*
+# But not these files...
+!/.gitignore
+
+!*.yaml
+!*.md
+!*.tfvars
+!*.tf
+
+!Makefile
+
+# ...even if they are in subdirectories
+!*/
+
+# . files/folders do not seem to be ignored by the catch all
+**/.terraform
